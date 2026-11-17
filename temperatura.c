@@ -2,6 +2,7 @@
 
 int main(void) {
 	int temperatura = 25;
+	float fah = (temperatura*9)/5 + 32;
 	if (temperatura >= 20) {
 		printf("High ");
 	}
